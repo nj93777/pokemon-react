@@ -21,4 +21,4 @@ with open('pokemon.sql', 'w') as f:
   
     f.write(",\n".join(values) + ";\n")
 
-print("JSON-tiedosto muunnettu SQL-tiedostoksi onnistuneesti.")
+print("JSON file successfully converted to SQL file.")
