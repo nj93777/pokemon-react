@@ -43,5 +43,4 @@ npm run dev
 
 ## Vite: Kehitystyökaluna nopeaan kehitykseen ja HMR (Hot Module Replacement) -ominaisuuteen.
 
-## PokeAPI: Pokémon-tietojen hakemiseen. 
-# pokemon-react
+## PokeAPI: Pokémon-tietojen hakemiseen. https://pokeapi-proxy.freecodecamp.rocks/
