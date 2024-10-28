@@ -21,8 +21,9 @@ Tämä projekti on Pokémon-hakusovellus, joka on rakennettu Reactin ja Viten av
 ## Käyttö
 
 Käynnistä kehityspalvelin
-
+```sh
 npm run dev
+```
 
 
 # Käyttöohjeita ja SQL:n select-hakukomentoja
