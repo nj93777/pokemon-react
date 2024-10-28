@@ -27,7 +27,8 @@ Käynnistä kehityspalvelin:
 npm run dev
 
 
-### Käyttöohjeet
+## Käyttöo
+
 ## Kirjoita hakupalkkiin Pokémonin nimi tai ID (numero) ja paina hakupainiketta.
 
 ## Sovellus hakee tiedot PokeAPI-rajapinnan kautta ja näyttää ne käyttäjälle.
