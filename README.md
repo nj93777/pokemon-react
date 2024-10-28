@@ -25,7 +25,7 @@ Käynnistä kehityspalvelin
 npm run dev
 
 
-# Käyttö
+# Käyttöohjeita ja SQL:n select-hakukomentoja
 
 #Kirjoita hakupalkkiin Pokémonin nimi tai ID (numero) ja paina hakupainiketta.
 
@@ -45,7 +45,7 @@ npm run dev
 
 #PokeAPI: Pokémon-tietojen hakemiseen. https://pokeapi-proxy.freecodecamp.rocks/
 
-Esimerkkejä SQL Select -hakukomennoista
+## Esimerkkejä SQL Select -hakukomennoista
 
 Hae kaikki tiedot kaikista Pokémoneista:
 
