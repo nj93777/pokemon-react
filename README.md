@@ -11,7 +11,7 @@ Tämä projekti on Pokémon-hakusovellus, joka on rakennettu Reactin ja Viten av
    ```
 2. Siirry projektin hakemistoon:
    ```sh
-   cd pokemon-app
+   cd pokemon-react
    ```
 3. Asenna riippuvuudet:
    ```sh
