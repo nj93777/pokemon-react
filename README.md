@@ -27,23 +27,23 @@ npm run dev
 
 # Käyttö
 
-# Kirjoita hakupalkkiin Pokémonin nimi tai ID (numero) ja paina hakupainiketta.
+#Kirjoita hakupalkkiin Pokémonin nimi tai ID (numero) ja paina hakupainiketta.
 
-# Sovellus hakee tiedot PokeAPI-rajapinnan kautta ja näyttää ne käyttäjälle.
+#Sovellus hakee tiedot PokeAPI-rajapinnan kautta ja näyttää ne käyttäjälle.
 
 #Näytettävät tiedot sisältävät Pokémonin nimen, kuvan, tyypit ja tilastot.
 
-# Rajapintaan liittyy pieni kummallisuus. 
-# Siinä on ID:n kanssa listattu pokemonit numeroon 1025 asti. 
-# Sen jälkeen tulee pieni hyppäys ja listaus jatkuu 10001 numerosta ja jatkuu 10277 asti. 
-# ID:lla 1026-10276 ei näin ollen pokemoneja löydy.
+#Rajapintaan liittyy pieni kummallisuus. 
+#Siinä on ID:n kanssa listattu pokemonit numeroon 1025 asti. 
+#Sen jälkeen tulee pieni hyppäys ja listaus jatkuu 10001 numerosta ja jatkuu 10277 asti. 
+#ID:lla 1026-10276 ei näin ollen pokemoneja löydy.
 
-# Teknologiat
-# React: Käyttöliittymän rakentamiseen.
+#Teknologiat
+#React: Käyttöliittymän rakentamiseen.
 
-# ite: Kehitystyökaluna nopeaan kehitykseen ja HMR (Hot Module Replacement) -ominaisuuteen.
+#Vite: Kehitystyökaluna nopeaan kehitykseen ja HMR (Hot Module Replacement) -ominaisuuteen.
 
-# PokeAPI: Pokémon-tietojen hakemiseen. https://pokeapi-proxy.freecodecamp.rocks/
+#PokeAPI: Pokémon-tietojen hakemiseen. https://pokeapi-proxy.freecodecamp.rocks/
 
 Esimerkkejä SQL Select -hakukomennoista
 
