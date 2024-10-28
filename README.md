@@ -50,11 +50,12 @@ Esimerkkejä SQL Select -hakukomennoista
 Hae kaikki tiedot kaikista Pokémoneista:
 
 
-
+```sql
 SELECT * FROM pokemon;
-```sql
+```
+
 Hae kaikkien Pokémonien nimet ja URL-osoitteet:
-```sql
+
 SELECT name, url FROM pokemon;
 
 Hae Pokémon, jonka nimi on 'pikachu':
