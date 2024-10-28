@@ -47,24 +47,62 @@ npm run dev
 ## PokeAPI: Pokémon-tietojen hakemiseen. https://pokeapi-proxy.freecodecamp.rocks/
 
 Esimerkkejä SQL Select -hakukomennoista
+
 Hae kaikki tiedot kaikista Pokémoneista:
+
+
+
+SELECT * FROM pokemon;
 
 Hae kaikkien Pokémonien nimet ja URL-osoitteet:
 
+
+
+SELECT name, url FROM pokemon;
+
 Hae Pokémon, jonka nimi on 'pikachu':
+
+
+
+SELECT * FROM pokemon WHERE name = 'pikachu';
 
 Hae kaikki Pokémonit, joiden id on suurempi kuin 10:
 
+
+
+SELECT * FROM pokemon WHERE id > 10;
+
 Hae kaikki Pokémonit aakkosjärjestyksessä nimen mukaan:
 
-Hae ensimmäiset viisi Pokémonia id:n mukaan järjestettynä:
+
+
+SELECT * FROM pokemon ORDER BY name;
+
+Hae ensimmäiset viisi Pokémonia id mukaan järjestettynä:
+
+
+
+SELECT * FROM pokemon ORDER BY id LIMIT 5;
 
 Hae kaikki Pokémonit, joiden nimi alkaa kirjaimella 'b':
 
+
+
+SELECT * FROM pokemon WHERE name LIKE 'b%';
+
 Hae kaikkien Pokémonien määrä:
 
+
+
+SELECT COUNT(*) FROM pokemon;
+
 Hae kaikki Pokémonit, joiden URL-osoite sisältää sanan 'api':
+
+
+
+SELECT * FROM pokemon WHERE url LIKE '%api%';
 
 Hae Pokémonit, joiden id on välillä 10 ja 20:
 
 SELECT * FROM pokemon WHERE id BETWEEN 10 AND 20;
+
