@@ -46,6 +46,8 @@ npm run dev
 ## PokeAPI: Pokémon-tietojen hakemiseen. https://pokeapi-proxy.freecodecamp.rocks/
 
 
+ ```sh
+
 Hae kaikki tiedot kaikista Pokémoneista: SELECT * FROM pokemon;
 Hae kaikkien Pokémonien nimet ja URL-osoitteet: SELECT name, url FROM pokemon;
 Hae Pokémon, jonka nimi on 'pikachu': SELECT * FROM pokemon WHERE name = 'pikachu';
