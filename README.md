@@ -7,6 +7,7 @@ Tämä projekti on Pokémon-hakusovellus, joka on rakennettu Reactin ja Viten av
 1. Kloonaa tämä repositorio:
    ```sh
    git clone <repository-url>
+
    ```
 2. Siirry projektin hakemistoon:
    ```sh
@@ -38,12 +39,11 @@ npm run dev
 ## Sen jälkeen tulee pieni hyppäys ja listaus jatkuu 10001 numerosta ja jatkuu 10277 asti. 
 ## ID:lla 1026-10276 ei näin ollen pokemoneja löydy.
 
-# Teknologiat
-## React: Käyttöliittymän rakentamiseen.
+Teknologiat<vscode_annotation details='%5B%7B%22title%22%3A%22hardcoded-credentials%22%2C%22description%22%3A%22Embedding%20credentials%20in%20source%20code%20risks%20unauthorized%20access%22%7D%5D'>
+</vscode_annotation>- React: Käyttöliittymän rakentamiseen.
 
-## Vite: Kehitystyökaluna nopeaan kehitykseen ja HMR (Hot Module Replacement) -ominaisuuteen.
-
-## PokeAPI: Pokémon-tietojen hakemiseen. https://pokeapi-proxy.freecodecamp.rocks/
+Vite: Kehitystyökaluna nopeaan kehitykseen ja HMR (Hot Module Replacement) -ominaisuuteen.
+PokeAPI: Pokémon-tietojen hakemiseen. PokeAPI
 
 Esimerkkejä SQL Select -hakukomennoista
 
