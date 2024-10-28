@@ -20,14 +20,12 @@ Tämä projekti on Pokémon-hakusovellus, joka on rakennettu Reactin ja Viten av
 
 ## Käyttö
 
-Käynnistä kehityspalvelin:
-
-```sh
+Käynnistä kehityspalvelin
 
 npm run dev
 
 
-## Käyttöo
+## Käyttö
 
 ## Kirjoita hakupalkkiin Pokémonin nimi tai ID (numero) ja paina hakupainiketta.
 
