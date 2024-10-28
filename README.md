@@ -1,5 +1,3 @@
-markdown
-
 # Pokémon-hakusovellus
 
 Tämä projekti on Pokémon-hakusovellus, joka on rakennettu Reactin ja Viten avulla. Sovelluksen avulla käyttäjät voivat hakea ja tarkastella eri Pokémonien tietoja.
@@ -9,42 +7,43 @@ Tämä projekti on Pokémon-hakusovellus, joka on rakennettu Reactin ja Viten av
 1. Kloonaa tämä repositorio:
    ```sh
    git clone <repository-url>
+   ```
+2. Siirry projektin hakemistoon:
+   ```sh
+   cd pokemon-app
+   ```
+3. Asenna riippuvuudet:
+   ```sh
+   npm install
+   ```
 
-    Siirry projektin hakemistoon:
-
-    sh
-
-cd pokemon-app
-
-Asenna riippuvuudet:
-
-sh
-
-    npm install
-
-Käyttö
+## Käyttö
 
 Käynnistä kehityspalvelin:
 
-sh
+```sh
 
 npm run dev
 
-Käyttöohjeet
 
-    Kirjoita hakupalkkiin Pokémonin nimi tai ID (numero) ja paina hakupainiketta.
-    Sovellus hakee tiedot PokeAPI-rajapinnan kautta ja näyttää ne käyttäjälle.
-    Näytettävät tiedot sisältävät Pokémonin nimen, kuvan, tyypit ja tilastot.
+# Käyttöohjeet
+## Kirjoita hakupalkkiin Pokémonin nimi tai ID (numero) ja paina hakupainiketta.
 
-    Rajapintaan liittyy pieni kummallisuus: Siinä on ID
-    kanssa listattu Pokémonit numeroon 1025 asti. Sen jälkeen tulee pieni hyppäys, ja listaus jatkuu numerosta 10001 aina numeroon 10277 asti. ID
-    1026-10276 ei näin ollen pokemoneja löydy.
+## Sovellus hakee tiedot PokeAPI-rajapinnan kautta ja näyttää ne käyttäjälle.
 
-Teknologiat
+## Näytettävät tiedot sisältävät Pokémonin nimen, kuvan, tyypit ja tilastot.
 
-    React: Käyttöliittymän rakentamiseen.
-    Vite: Kehitystyökaluna nopeaan kehitykseen ja HMR (Hot Module Replacement) -ominaisuuteen.
-    PokeAPI: Pokémon-tietojen hakemiseen. https://pokeapi-proxy.freecodecamp.rocks/
+## Rajapintaan liittyy pieni kummallisuus. 
+## Siinä on ID:n kanssa listattu pokemonit numeroon 1025 asti. 
+## Sen jälkeen tulee pieni hyppäys ja listaus jatkuu 10001 numerosta ja jatkuu 10277 asti. 
+## ID:lla 1026-10276 ei näin ollen pokemoneja löydy.
+
+# Teknologiat
+## React: Käyttöliittymän rakentamiseen.
+
+## Vite: Kehitystyökaluna nopeaan kehitykseen ja HMR (Hot Module Replacement) -ominaisuuteen.
+
+## PokeAPI: Pokémon-tietojen hakemiseen. https://pokeapi-proxy.freecodecamp.rocks/
 
 Esimerkkejä SQL Select -hakukomennoista
 
@@ -111,4 +110,4 @@ SELECT * FROM pokemon WHERE id BETWEEN 10 AND 20;
 csharp
 
 
-Näin jokainen kysely on omassa koodilohkossaan, jolloin niitä voi helposti kopioida yksitellen GitHubista.
+Näin jokainen kysely on omassa koodilohkossaan, jolloin niitä voi helposti kopioida yksi
