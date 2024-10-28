@@ -45,6 +45,7 @@ npm run dev
 
 ## PokeAPI: Pokémon-tietojen hakemiseen. https://pokeapi-proxy.freecodecamp.rocks/
 
+## Esimerkkejä Select-hakukomennoista.
 
  ```sh
 
